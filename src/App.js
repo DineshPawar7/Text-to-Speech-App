@@ -2,7 +2,7 @@
 
 import './App.css';
 import Header from './homepage/Header';
-// import SampleTTS from './homepage/SampleTTS';
+import SampleTTS from './homepage/SampleTTS';
 import Middle from './homepage/Middle';
 import Testimonial from './homepage/Testimonial';
 import FAQ from './homepage/FAQ';
@@ -19,7 +19,7 @@ function App() {
     <Router>
       <div>
         <Header />
-        {/* <SampleTTS /> */}
+        <SampleTTS />
         <Middle />
         <Testimonial />
         <FAQ />
